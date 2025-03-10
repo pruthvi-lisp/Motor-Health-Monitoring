@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 
-# Select the motor name properly
+# Select the motor name properly for new version
 motor_name = "Agri-Fusion"
 
 
