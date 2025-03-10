@@ -10,7 +10,7 @@ np.random.seed(0)  # For reproducibility
 base_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
 timestamps = [base_time + timedelta(seconds=120*i) for i in range(1000)]
 
-# Generate random values for voltage and horsepower
+# Generate random values for voltage and horsepower appropriately
 np.random.seed(0)  # For reproducibility
 voltage_values = np.random.uniform(low=225, high=230, size=1000)
 horsepower_values = np.random.uniform(low=2.6, high=3, size=1000)
